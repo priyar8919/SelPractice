@@ -13,6 +13,8 @@ public class WebBasic {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get(baseURL);
+		driver.quit();
+		
 
 	}
 
